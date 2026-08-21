@@ -1,5 +1,8 @@
 package DesginPattern.CreationalPattern.FactoryDesignPattern.FactoryMethod.transportWays;
 
-public abstract class AirWays implements Transport {
-
+public class AirWays implements Transport {
+    @Override
+    public void transportShipment() {
+        System.out.println("Transporting shipment by Airways on Plane");
+    }
 }

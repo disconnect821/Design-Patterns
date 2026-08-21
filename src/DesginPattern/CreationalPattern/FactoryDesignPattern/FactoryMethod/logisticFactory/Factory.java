@@ -1,5 +1,7 @@
 package DesginPattern.CreationalPattern.FactoryDesignPattern.FactoryMethod.logisticFactory;
 
-public interface Factory<T> {
-    T createTransport(String transportType);
+import DesginPattern.CreationalPattern.FactoryDesignPattern.FactoryMethod.transportWays.Transport;
+
+public interface Factory {
+    Transport createTransport();
 }
