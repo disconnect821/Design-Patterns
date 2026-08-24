@@ -9,6 +9,6 @@ public class Button {
     }
 
     public void onClick(){
-        buttonCommand.execute();;
+        buttonCommand.execute();
     }
 }

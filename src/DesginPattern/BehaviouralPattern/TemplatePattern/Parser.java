@@ -2,8 +2,7 @@ package DesginPattern.BehaviouralPattern.TemplatePattern;
 
 public abstract class Parser {
 
-    public final
-    void parse(){
+    public final void parse(){
         openFile();
         processData();
         closeFile();
